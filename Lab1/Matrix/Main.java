@@ -6,16 +6,13 @@ public class Main {
         Matrix b = new Matrix(3, 2);
         Matrix e = new Matrix(2, 3);
         
-    
-        // set values for matrix a
         a.set(0, 0, 1);
         a.set(0, 1, 2);
         a.set(0, 2, 3);
         a.set(1, 0, 4);
         a.set(1, 1, 5);
         a.set(1, 2, 6);
-    
-        // set values for matrix b
+
         b.set(0, 0, 7);
         b.set(0, 1, 8);
         b.set(1, 0, 9);
@@ -29,15 +26,13 @@ public class Main {
         e.set(1, 0, 4);
         e.set(1, 1, 5);
         e.set(1, 2, 6);
-    
-        // test matrix addition
+
         a.print();
         b.print();
         Matrix c = a.add(e);
         System.out.println("a + e = ");
         c.print();
     
-        // test matrix multiplication
         Matrix d = a.multiply(b);
         System.out.println("a * b = ");
         d.print();
