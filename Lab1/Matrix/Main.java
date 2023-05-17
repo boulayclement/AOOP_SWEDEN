@@ -1,4 +1,4 @@
-package Matrix;
+package Lab1.Matrix;
 
 public class Main {
     public static void main(String[] args) {
